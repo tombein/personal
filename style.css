@@ -1,0 +1,109 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+.headline {
+color:rgb(181, 146, 100);
+border: 2px rgba(255, 252, 240, 0.701);
+width: 1rem;
+}
+
+body {
+    background-color: rgb(106, 92, 92);
+    border: 20px grey
+}
+
+/* Down */
+
+/* Auto layout */
+.gitHub {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: static;
+    width: 122px;
+    height: 99px;
+    left: 16px;
+    top: 168px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 24px 0px;
+      }
+    
+    .headline{
+      font-family:roboto;
+      font-size: 14px;
+      font-weight:400; 
+    }
+    .title{
+    font-family:roboto;
+      font-size: 14px;
+      font-weight:400;
+      }
+    
+    .foto{
+      border-radius: 8px;
+      
+    }
+    .Allpictures{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-around;
+     _ column-gap: 20px;
+    }
+
+    .navi{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(121, 102, 102);
+        padding: 20px 0px 20px 0px ;
+        font-family: hurricane;
+        color: rgb(72, 128, 92);
+    
+  }
+a {
+color: blanchedalmond;
+
+}
+  .TJPB{
+font-family:Smooch Sans;
+padding: 20px 0 0 0;
+text-align: center;
+}
+
+.titlePicture{
+display: flex;
+justify-content:flex-end;
+border-radius: 8px;
+}
+
+h2 {
+text-align: center;
+font-family: Smooch Sans;
+}
+
+.buttonarticle{
+display: flex;
+justify-content: center;
+margin: 15px 0 15px 0;
+}
+
+.bcontact{
+padding: 15px 30px 15px 30px;
+border-radius:30px;
+color: rgb(2, 1, 1);
+background-color: blanchedalmond;
+cursor: pointer;
+}
+
+.bcontact:hover{
+    background-color: rgba(84, 79, 79, 0.18);
+}
