@@ -6,13 +6,11 @@ padding: 0;
 
 .headline {
 color:rgb(181, 146, 100);
-border: 2px rgba(255, 252, 240, 0.701);
 width: 1rem;
 }
 
 body {
     background-color: rgb(106, 92, 92);
-    border: 20px grey
 }
 
 /* Down */
